@@ -1,6 +1,28 @@
 # Rick and Morty API
 
+## Prerequisites
+
+- Node.js >= 18.19.1
+- npm >= 8.0.0
+
 ## Setup
+
+1. **Install Node.js version (if using nvm):**
+
+   ```bash
+   nvm use
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install --legacy-peer-deps
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run start:dev
+   ```
 
 Mock data is in src/data/characters.json.
 
